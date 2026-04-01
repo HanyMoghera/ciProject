@@ -3,6 +3,7 @@ import databaseConnection from "./database/connection.js";
 import User from "./database/model/user.model.js";
 
 const app = express();
+app.use(express.json());
 databaseConnection;
 
 app.get("/get-all-users", async (req, res) => {
