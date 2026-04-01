@@ -1,0 +1,23 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jest": "^30.3.0",
+    "mongoose": "^9.3.2",
+    "supertest": "^7.2.2"
+  },
+  "devDependencies": {
+    "cypress": "^15.13.0"
+  }
+}
